@@ -37,7 +37,7 @@ export const fetchData = (channel) => {
 export const fetchData = (channel) => {
    return function(dispatch) {
 	dispatch(sendRequest());
-	console.log(channel);
+//	console.log(channel);
 	let json = {"usefulData": [{"uData":"some data1"},{"uData":"some data2"}]};
 	dispatch(gotData(json));	
   } 

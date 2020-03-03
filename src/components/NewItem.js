@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NewItem = ( { item } ) => {console.log('here!');console.log(item.uData);
+const NewItem = ( { item } ) => {
 return (<div>
 	{item.uData}
 </div>);
